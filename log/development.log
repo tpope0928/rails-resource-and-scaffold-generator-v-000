@@ -90,3 +90,12 @@ Processing by ArticlesController#index as HTML
 Completed 200 OK in 748ms (Views: 744.1ms | ActiveRecord: 0.4ms)
 
 
+Started GET "/articles/new" for 69.250.234.128 at 2019-08-07 23:41:17 +0000
+Cannot render console from 69.250.234.128! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#new as HTML
+  Rendering articles/new.html.erb within layouts/application
+  Rendered articles/_form.html.erb (28.7ms)
+  Rendered articles/new.html.erb within layouts/application (30.3ms)
+Completed 200 OK in 76ms (Views: 58.7ms | ActiveRecord: 0.8ms)
+
+
